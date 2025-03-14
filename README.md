@@ -59,12 +59,23 @@ bash
 npm install
 pip install -r requirements.txt
 
-3. Configure Environment Variable
-Create a `.env` file in the root directory with the following variables:
+## Setup Instructions
 
-TWITTER_API_KEY=your_twitter_api_key
-NEWS_API_KEY=your_news_api_key
-VIRUS_TOTAL_API_KEY=your_virus_total_api_key
+1. Create `.env` file in backend directory with:
+   - TWITTER_BEARER_TOKEN
+   - NEWS_API_KEY
+   - VT_API_KEY
+   - hf_token
+
+2. Create `.env` file in frontend directory with:
+   - REACT_APP_API_URL
+
+3. Get API keys from:
+   - Twitter: https://developer.twitter.com
+   - NewsAPI: https://newsapi.org
+   - VirusTotal: https://www.virustotal.com
+   - HuggingFace: https://huggingface.co
+
 
 4. Run the Application
 bash
@@ -166,5 +177,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For any inquiries or support, please contact us at [stavinfernandes2098@gmail.com](mailto:stavinfernandes2098@gmail.com)
 
 Thank you for your interest in the Security Analysis Project!
+
 
     
