@@ -51,7 +51,7 @@ Prerequisites
 Setup Steps
 1. Clone the Repository
 bash
-git clone https://github.com/yourusername/security-analysis.git
+git clone https://github.com/Stavin13/security-analysis.git
 cd security-analysis
 
 2. Install Dependencies
