@@ -65,3 +65,6 @@ keydata.py
 .env.test
 .env.production
 
+# Allow
+!.env.example
+

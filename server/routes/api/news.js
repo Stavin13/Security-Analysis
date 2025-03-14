@@ -1,0 +1,1 @@
+const newsapi = new NewsAPI(process.env.NEWS_API_KEY);
