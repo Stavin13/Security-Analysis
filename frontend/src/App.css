@@ -1,0 +1,117 @@
+/* App.css */
+
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #00c5df;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+}
+
+h3 {
+  color: #555;
+}
+
+/* Search Section */
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Results Section */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #10bde9;
+}
+
+/* Chart Section */
+.chart-container {
+  width: 50%;
+  margin: 20px auto;
+}
+
+.app-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.search-section {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.chart-container {
+  width: 300px;
+  height: 300px;
+  margin: 20px auto;
+}
+
+.error-message {
+  color: #d32f2f;
+  padding: 10px;
+  border: 1px solid #ef9a9a;
+  border-radius: 4px;
+  background-color: #ffebee;
+  margin: 10px 0;
+}
+
+.loading {
+  text-align: center;
+  color: #666;
+  padding: 20px;
+}
+
+.app {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+.error {
+  color: #d32f2f;
+  padding: 16px;
+  border-radius: 4px;
+  background-color: #ffebee;
+  margin: 16px 0;
+}
