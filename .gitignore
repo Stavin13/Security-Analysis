@@ -1,0 +1,60 @@
+# Root level environment files
+.env
+.env.*
+
+# Backend environment files
+backend/.env
+backend/.env.*
+
+# Frontend environment files
+frontend/.env
+frontend/.env.*
+frontend/.env.local
+frontend/.env.development
+frontend/.env.production
+frontend/.env.test
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+backend/*.db
+backend/*.sqlite3
+backend/env/
+backend/venv/
+
+# Node/React
+frontend/node_modules/
+frontend/build/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+.docker/
+
+# Logs
+*.log
+logs/
+
+# Add these to your .gitignore if not already there
+node_modules/
+instance/
+keydata.py       # Since this might contain sensitive data
+
+# Add these lines
+*.env
+*.zip
+yarn.lock
+keydata.py
+
