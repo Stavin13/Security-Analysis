@@ -83,12 +83,12 @@ Open your browser and navigate to `http://localhost:3000`
 
 📊 API Endpoints
 
-### Analysis Endpoints
+Analysis Endpoints
 - `POST /analyze` - Analyze tweets
 - `GET /history` - Get analysis history
 - `GET /news` - Get news analysis
 
-### Health Check
+Health Check
 - `GET /health` - API health status
 
 🔒 Security
