@@ -18,7 +18,7 @@ scikit-learn==1.5.1
 transformers==5.5.0
 tokenizers==0.12.1
 tensorflow==2.12.1
-torch==2.12.1
+torch==2.13.0
 textblob==0.17.1
 regex>=2023.0.0
 
